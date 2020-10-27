@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  ensure_safe_dependencies:
+    runs-on: ubuntu-latest
+    name: Run safe dependencies action
+    steps:
+      - name: Run safe dependencies action
+        uses: joaomoreno/safe-dependencies-action@v1

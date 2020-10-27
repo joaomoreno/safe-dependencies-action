@@ -1,12 +1,16 @@
 {
   "name": "safe-dependencies-action",
   "version": "1.0.0",
-  "description": "Ensure dependencies can't be added in an unsafe PR",
+  "description": "Ensure dependencies can't be changed in an external PR",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "João Moreno",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
 }

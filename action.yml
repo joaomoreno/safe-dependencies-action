@@ -1,0 +1,5 @@
+name: "Ensure Safe Dependencies"
+description: "Ensure dependencies can't be changed in an external PR"
+runs:
+  using: "node12"
+  main: "index.js"
